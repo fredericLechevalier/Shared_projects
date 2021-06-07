@@ -1,0 +1,3 @@
+launch the binary with 2 numbers as arguments : 
+1st for the number of lines of matches in the game's board
+2nd to set the max amount of matches a player can take out of the board in one turn
