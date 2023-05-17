@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/fred/Desktop/Shared_projects/asmMiniLibC'
+cc    -c -o main.o main.c
+make -C ./lib/my/
+gcc -g -Wl,-rpath=./lib/my/ -o zbinary main.c  -L./lib/my/ -lasm
+rm *.o
+make: Leaving directory '/home/fred/Desktop/Shared_projects/asmMiniLibC'
+ 
