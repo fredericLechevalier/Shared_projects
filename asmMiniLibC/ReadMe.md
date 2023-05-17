@@ -10,5 +10,8 @@ To see the results of the battery test, simply launch the the program like so :
 
 ./miniLibC
 
-note: the behaviour intended to copy from strcmp was an earlier version where the fonction only replied by
+notes:
+the behaviour intended to copy from strcmp was an earlier version where the fonction only replied by
 -1/0/1 instead of a value representing the ASCII difference between the two arguments.
+
+To run this program you need to have nasm installed in order to compile and run x86-64 Assembler code
