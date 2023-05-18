@@ -1,0 +1,20 @@
+Je n'ai pas pu terminer mon jeu vidéo, pour plusieurs raisons :
+
+- J'ai entrepris une technique de déplacement qui n'utilise pas de grillage tell un char ** l'aurais contenue.
+    J'ai créé mes déplacements au pixel et ai tenté d'arranger mon jeu sur une grille imaginaire de 20 pixels sur 20 pixels pour l'unité
+    Cela m'a causé des problèmes de gestion de déplacement entre les entités qui devaient se rencontrer à des vitesses différentes.
+
+- J'ai entrepris un système de détection de collision sans grille char **, ce qui me demandait de créer des "hitbox" au pixel près,
+    ce que je n'ai pas réussi à accomplir parfaitement.
+
+Ces erreurs ont ralenti sur la conception du jeu pour la détection des entités entre elles et leurs déplacements à prendre en compte pour les
+frames suivantes, car j'ai essayé de prévoir les futurs déplacements des entités avant qu'ils ne se produisent, compliquant mon approche du sujet.
+
+Une idée appliquée dans la vraie vie que j'aurais dû prendre comme approche pour cette conception de jeu est comme le jeu vidéo
+Mario 64 dans lequel les mouvements ne sont pas prédits pour être annulé avant qu'il ne se produise :
+
+Leur système de collision renvoie l'entité qui se déplace dans la direction opposée à laquelle elle se déplaçait avant que le résulta ne
+s'affiche pour l'utilisateur.
+
+
+Frédéric Lechevalier

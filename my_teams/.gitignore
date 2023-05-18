@@ -1,0 +1,7 @@
+.vscode/
+a.out
+*.a
+vgcore.*
+*.o
+myteams_cli
+myteams_server
